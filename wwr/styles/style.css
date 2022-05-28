@@ -1,16 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+.home-title{
+  font-family:  'Rock Salt', 'Bradley Hand' , sans-serif ;
+  font-size: 2em
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
 body {
     color: ;
     text-align: center;
   } 
- {
+ 
 
-}
 #background {
     height: 725px;
 }
                
 body {
     background-color: #fcfbfb; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+  margin: 0;
 }
 header {
     background-color:rgba(221, 213, 203, 0.911);
@@ -19,11 +35,34 @@ nav a:hover {
     background-color: black;
 }
 
+nav a {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
+}
   
-nav a:hover {
+/* nav a:hover {
     background-color: black;
     color: #d9c2a3;
-}    
+}     */
+.book, .join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+            
 p {
     margin: 35px;
   }
@@ -37,11 +76,11 @@ nav a {
     text-decoration: none;
 }    
 p.a {
-  margin: 30px 0;
+  margin: 0,0;
 }
 
 p.b {
-  margin: 20px 0;
+  margin: 0,0;
 }
   div.a {
     text-align: center;
@@ -66,7 +105,7 @@ header  {
   text-align: left;
 }
 header {
-  margin: 30px 0;
+  margin: 0px 0;
 }
 
 footer {
